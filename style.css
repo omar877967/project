@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #222831;
+ background-image: url("store.webp");
+line-height: 1.6;
+ margin: 0%;}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem auto;
+    max-width: 1200px;
+}
+.navigation ul{
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+}
+.navigation a{
+    text-decoration: none;
+    color: white;
+}
+.navigation a:hover{
+    text-decoration: none;
+    color: rgb(17, 120, 171);
+}
+hr{
+    opacity: 10%;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem auto;
+    max-width: 1200px;
+}
+.herosub{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.name{
+    font-size: 2rem;
+    color: #eeeeee;}
+.title{
+    font-size: 4rem;
+    color:white;
+}
+
